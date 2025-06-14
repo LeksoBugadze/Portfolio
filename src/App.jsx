@@ -1,5 +1,5 @@
 import Hero from "./Hero"
-import About from "./ABOUT"
+import About from "./About"
 import Projects from "./Projects"
 import CursorGlow from "./CursorGlow"
 import Contact from "./Contact"
