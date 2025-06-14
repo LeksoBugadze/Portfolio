@@ -27,7 +27,7 @@ function Hero(){
             <div className="md:self-start md:mt-15 mt-5 flex items-center gap-5">
                 <a href="https://github.com/LeksoBugadze" target="_blank" className="hover:bg-blue-500 transition:bg duration-150  cursor-pointer p-3 ring ring-blue-500 rounded-xl"><img className="w-6" src="/github.svg" alt="github-link"/></a>
                 <a href="https://www.linkedin.com/in/lekso-bugadze" target="_blank" className="hover:bg-blue-500 transition:bg duration-150  cursor-pointer p-3 ring ring-blue-500 rounded-xl"><img className="w-6" src="/linkedin.svg" alt="linkedin-link"/></a>
-                <a className="hover:bg-blue-500 transition-bg duration-250 flex itmes-center gap-3 ring-1 p-2 pt-3 pb-3 rounded-lg ring-blue-500" href="./public/CV.pdf" download="CV.pdf" target="_blank">Download CV </a>
+                <a className="hover:bg-blue-500 transition-bg duration-250 flex itmes-center gap-3 ring-1 p-2 pt-3 pb-3 rounded-lg ring-blue-500" href="/public/CV.pdf" download="CV.pdf" target="_blank">Download CV </a>
             </div>
         </div>
     )
