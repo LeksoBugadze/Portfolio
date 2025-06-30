@@ -15,18 +15,38 @@ function Projects(){
             <div className="flex gap-2 items-center">
                 <h1 className="text-slate-400">Built with: </h1>
                 <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/react.svg" alt="react"/>
-                <img className="ring-1 p-1 rounded-xl ring-blue-400 w-10" src="/tailwind.svg" alt="tailwind"/>
+                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/tailwind.svg" alt="tailwind"/>
                 <img className="ring-1 p-1 rounded-xl ring-lime-500 w-10" src="/nodeJS.svg" alt="nodeJS"/>
                 <img className="ring-1 p-1 rounded-xl ring-slate-400 w-10" src="/express.svg" alt="express"/>
                 <img className="ring-1 p-1 rounded-xl ring-green-400 w-10" src="/mongoDb.svg" alt="mongoDB"/>
             </div>,
             link:'https://to-do-list.aleksandrebugadze.com',
         },{
+            name:<h1 className="text-slate-300 text-lg transition-all duration-200">Find Location App</h1>,
+            imageLink:'findByIp.png',
+            description:
+            <p className="text-slate-400">
+                This is a full-stack application that utilizes two APIs to provide location-based functionality.
+                The first is an IP Geolocation API, which retrieves geographical information based on an IP address, email, or domain.
+                The second is Leaflet.js, a JavaScript library used to render interactive maps.
+                The application combines these technologies to display the retrieved location data visually on a map, offering a dynamic and user-friendly interface.  
+            </p>,
+            techs:
+            <div className="flex gap-2 items-center">
+                <h1 className="text-slate-400">Built with: </h1>
+                <img className="ring-1 p-1 rounded-xl ring-blue-500 w-10" src="/typescript.svg" alt="typescript"/>
+                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/react.svg" alt="react"/>
+                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/tailwind.svg" alt="tailwind"/>
+                <img className="ring-1 p-1 rounded-xl ring-orange-400 w-10" src="/java.svg" alt="java"/>
+                <img className="ring-1 p-1 rounded-xl ring-lime-500 w-10" src="/spring.svg" alt="spring"/>
+            </div>,
+            link:'https://findbyip.aleksandrebugadze.com',
+        },{
             name:<h1 className="text-slate-300 text-lg transition-all duration-200">Weather App</h1>,
             imageLink:'weatherApp.png',
             description:
             <p className="text-slate-400">
-                his is a full stack weather application built with the latest web technology.
+                This is a full stack weather application built with the latest web technology.
                 It fetches real-time weather data by implementing the OpenWeather API, providing users with real-time information based on what they provide.  
             </p>,
             techs:
