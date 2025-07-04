@@ -19,11 +19,11 @@ function Projects(){
                     <h1 className="group-hover:underline text-slate-200">Source code</h1>
                 </a>
                 <div className="flex gap-2">
-                    <img className="w-8" src="/react.svg" alt="html"/>
-                    <img className="w-8" src="/typescript.svg" alt="css"/>
-                    <img className="w-8" src="/tailwind.svg" alt="javascript"/>
-                    <img className="w-8" src="/java.svg" alt="nodeJS"/>
-                    <img className="w-8" src="/spring.svg" alt="express"/>
+                    <img className="w-8" src="/react.svg" alt="react"/>
+                    <img className="w-8" src="/typescript.svg" alt="typescript"/>
+                    <img className="w-8" src="/tailwind.svg" alt="tailwind"/>
+                    <img className="w-8" src="/java.svg" alt="java"/>
+                    <img className="w-8" src="/spring.svg" alt="spring"/>
                 </div>
             </div>,
             link:'https://findbyip.aleksandrebugadze.com',
@@ -43,11 +43,11 @@ function Projects(){
                     <h1 className="group-hover:underline text-slate-200">Source code</h1>
                 </a>
                 <div className="flex gap-2">
-                    <img className="w-8" src="/react.svg" alt="html"/>
-                    <img className="w-8" src="/tailwind.svg" alt="css"/>
-                    <img className="w-8" src="/nodeJS.svg" alt="javascript"/>
-                    <img className="w-8" src="/express.svg" alt="nodeJS"/>
-                    <img className="w-8" src="/mongoDb.svg" alt="express"/>
+                    <img className="w-8" src="/react.svg" alt="react"/>
+                    <img className="w-8" src="/tailwind.svg" alt="talwind"/>
+                    <img className="w-8" src="/nodeJS.svg" alt="nodejs"/>
+                    <img className="w-8" src="/express.svg" alt="express"/>
+                    <img className="w-8" src="/mongoDb.svg" alt="mongodb"/>
                 </div>
             </div>,
             link:'https://to-do-list.aleksandrebugadze.com',
