@@ -13,13 +13,18 @@ function Projects(){
                 The application combines these technologies to display the retrieved location data visually on a map, offering a dynamic and user-friendly interface.  
             </p>,
             techs:
-            <div className="flex gap-2 items-center">
-                <h1 className="text-slate-400">Built with: </h1>
-                <img className="ring-1 p-1 rounded-xl ring-blue-500 w-10" src="/typescript.svg" alt="typescript"/>
-                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/react.svg" alt="react"/>
-                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/tailwind.svg" alt="tailwind"/>
-                <img className="ring-1 p-1 rounded-xl ring-orange-400 w-10" src="/java.svg" alt="java"/>
-                <img className="ring-1 p-1 rounded-xl ring-lime-500 w-10" src="/spring.svg" alt="spring"/>
+            <div className="flex lg:flex-row flex-col gap-2 w-full justify-between items-start lg:items-center ">
+                <a href="https://github.com/LeksoBugadze/findByIp" target="_blank" className="group flex items-center bg-slate-700 px-1 pr-2 py-0.5 rounded-md">
+                    <img className="w-10" src='/console.svg'></img> 
+                    <h1 className="group-hover:underline text-slate-200">Source code</h1>
+                </a>
+                <div className="flex gap-2">
+                    <img className="w-8" src="/react.svg" alt="html"/>
+                    <img className="w-8" src="/typescript.svg" alt="css"/>
+                    <img className="w-8" src="/tailwind.svg" alt="javascript"/>
+                    <img className="w-8" src="/java.svg" alt="nodeJS"/>
+                    <img className="w-8" src="/spring.svg" alt="express"/>
+                </div>
             </div>,
             link:'https://findbyip.aleksandrebugadze.com',
         },{
@@ -32,13 +37,18 @@ function Projects(){
                 It can enable users to securely register, login, and manage their own tasks in a clean and responsive UI.
             </p>,
             techs:
-            <div className="flex gap-2 items-center">
-                <h1 className="text-slate-400">Built with: </h1>
-                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/react.svg" alt="react"/>
-                <img className="ring-1 p-1 rounded-xl ring-sky-400 w-10" src="/tailwind.svg" alt="tailwind"/>
-                <img className="ring-1 p-1 rounded-xl ring-lime-500 w-10" src="/nodeJS.svg" alt="nodeJS"/>
-                <img className="ring-1 p-1 rounded-xl ring-slate-400 w-10" src="/express.svg" alt="express"/>
-                <img className="ring-1 p-1 rounded-xl ring-green-400 w-10" src="/mongoDb.svg" alt="mongoDB"/>
+            <div className="flex lg:flex-row flex-col gap-2 w-full justify-between items-start lg:items-center ">
+                <a href="https://github.com/LeksoBugadze/To-Do-List" target="_blank" className="group flex items-center bg-slate-700 px-1 pr-2 py-0.5 rounded-md">
+                    <img className="w-10" src='/console.svg'></img> 
+                    <h1 className="group-hover:underline text-slate-200">Source code</h1>
+                </a>
+                <div className="flex gap-2">
+                    <img className="w-8" src="/react.svg" alt="html"/>
+                    <img className="w-8" src="/tailwind.svg" alt="css"/>
+                    <img className="w-8" src="/nodeJS.svg" alt="javascript"/>
+                    <img className="w-8" src="/express.svg" alt="nodeJS"/>
+                    <img className="w-8" src="/mongoDb.svg" alt="express"/>
+                </div>
             </div>,
             link:'https://to-do-list.aleksandrebugadze.com',
         },{
@@ -50,13 +60,18 @@ function Projects(){
                 It fetches real-time weather data by implementing the OpenWeather API, providing users with real-time information based on what they provide.  
             </p>,
             techs:
-            <div className="flex gap-2 items-center">
-                <h1 className="text-slate-400">Built with: </h1>
-                <img className="ring-1 p-1 rounded-xl ring-orange-400 w-10" src="/html.svg" alt="html"/>
-                <img className="ring-1 p-1 rounded-xl ring-blue-400 w-10" src="/css.svg" alt="css"/>
-                <img className="ring-1 p-1 rounded-xl ring-yellow-400 w-10" src="/javaScript.svg" alt="javascript"/>
-                <img className="ring-1 p-1 rounded-xl ring-lime-500 w-10" src="/nodeJS.svg" alt="nodeJS"/>
-                <img className="ring-1 p-1 rounded-xl ring-slate-400 w-10" src="/express.svg" alt="express"/>
+            <div className="flex lg:flex-row flex-col gap-2 w-full justify-between items-start lg:items-center ">
+                <a href="https://github.com/LeksoBugadze/Weather-app" target="_blank" className="group flex items-center bg-slate-700 px-1 pr-2 py-0.5 rounded-md">
+                    <img className="w-10" src='/console.svg'></img> 
+                    <h1 className="group-hover:underline text-slate-200">Source code</h1>
+                </a>
+                <div className="flex gap-2">
+                    <img className="w-9" src="/html.svg" alt="html"/>
+                    <img className="w-8" src="/css.svg" alt="css"/>
+                    <img className="w-8" src="/javaScript.svg" alt="javascript"/>
+                    <img className="w-8" src="/nodeJS.svg" alt="nodeJS"/>
+                    <img className="w-8" src="/express.svg" alt="express"/>
+                </div>
             </div>,
             link:'https://weather-app.aleksandrebugadze.com',
         },{
@@ -69,11 +84,16 @@ function Projects(){
                 If you die, you lose everything.
             </p>,
             techs:
-            <div className="flex gap-2 items-center">
-                <h1 className="text-slate-400">Built with: </h1>
-                <img className="ring-1 p-1 rounded-xl ring-orange-400 w-10" src="/html.svg" alt="html"/>
-                <img className="ring-1 p-1 rounded-xl ring-blue-400 w-10" src="/css.svg" alt="css"/>
-                <img className="ring-1 p-1 rounded-xl ring-yellow-400 w-10" src="/javaScript.svg" alt="javascript"/>
+            <div className="flex lg:flex-row flex-col gap-2 w-full justify-between items-start lg:items-center ">
+                <a href="https://github.com/LeksoBugadze/Rogue-Cube"  target="_blank" className="group flex items-center bg-slate-700 px-1 pr-2 py-0.5 rounded-md">
+                    <img className="w-10" src='/console.svg'></img> 
+                    <h1 className="group-hover:underline text-slate-200">Source code</h1>
+                </a>
+                <div className="flex gap-2">
+                    <img className="w-9" src="/html.svg" alt="html"/>
+                    <img className="w-8" src="/css.svg" alt="css"/>
+                    <img className="w-8" src="/javaScript.svg" alt="javascript"/>
+                </div>
             </div>,
             link:'https://rogue-cube.aleksandrebugadze.com',
         }
