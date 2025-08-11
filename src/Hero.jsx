@@ -17,7 +17,7 @@ function Hero(){
             <p 
                 className="mt-5 text-xl w-2xs text-slate-400 text-center md:text-left"
                 >
-                I build minimalistic, practical digital expirience for the web.
+                I build minimalistic, practical digital expiriences for the web.
             </p>
             <div className="md:self-start md:mt-15 md:flex md:flex-col md:gap-5 hidden">
                 <a className="cursor-pointer text-slate-300" href="#about">About</a>
