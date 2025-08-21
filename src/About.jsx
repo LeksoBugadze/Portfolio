@@ -7,12 +7,14 @@ function About(){
         {src:'/javaScript.svg',label:'JavaScript'},
         {src:'/typescript.svg',label:'TypeScript'},
         {src:'/react.svg',label:'React'},
+        {src:'/NextJS.svg',label:'NextJS'},
         {src:'/tailwind.svg',label:'Tailwind'},
         {src:'/java.svg',label:"Java"},
         {src:'/spring.svg',label:"Spring Boot"},
         {src:'/nodeJS.svg',label:'NodeJS'},
         {src:'/express.svg',label:'Express'},
-        {src:'/mongoDb.svg',label:'MongoDB'},
+        {src:'/postgresql.svg',label:'PostgreSQL'},
+        {src:'/mongoDb.svg',label:'MongoDB'},       
     ]
 
     return(
